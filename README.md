@@ -1,10 +1,10 @@
-# infinitas_chainload
+# d3d9_chainload
 
-Proxy `d3d9.dll` for auto-loading libraries during game startup.
+Proxy `d3d9.dll` for auto-loading libraries during program startup.
 
 ## Usage
 
-1. Copy `d3d9.dll` and `chainload.txt` to the `game/app` directory.
+1. Copy `d3d9.dll` and `chainload.txt` to the directory containing the program executable.
 2. Add a line to the `chainload.txt` file containing a path to a library.
 3. Launch the game.
 
@@ -15,3 +15,5 @@ Proxy `d3d9.dll` for auto-loading libraries during game startup.
 # More information
 
 * [Dynamic-Link Library Search Order](https://docs.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-search-order)
+
+*Forked from https://github.com/emskye96/infinitas_chainload*
